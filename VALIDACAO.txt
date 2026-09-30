@@ -1,0 +1,29 @@
+VALIDAÇÃO REAL — 29/08/2026
+===========================
+
+Resultado dos arquivos
+----------------------
+- Sintaxe da interface PowerShell: OK
+- Modelo L495 presente no banco: OK
+- Definição: 6 endereços EEPROM, com valores de reset e duas chaves
+- SHA-256 do mecanismo EWR: conferido
+- Microsoft Defender: nenhuma ameaça encontrada
+
+Resultado com a impressora
+--------------------------
+- Dispositivo detectado: EPSON L495 Series
+- Porta: USB001
+- USB VID/PID: 04B8:1121
+- Correspondência do banco: L495 exata
+- Interfaces encontradas: USBPRINT mi_01 e IMAGE mi_00
+- Consulta somente leitura: sem resposta ao handshake D4
+- Segundo mecanismo, pelo spooler do Windows: 0/6 leituras respondidas
+- Simulação: OK; exibiu os 6 bytes planejados e confirmou que nada foi escrito
+- Reset real: NÃO EXECUTADO
+
+Conclusão
+---------
+O programa, o banco e o fluxo de reset estão montados e validados. A impressora
+foi encontrada, mas precisa ser desligada fisicamente por pelo menos 10 segundos
+e ligada novamente para liberar a sessão de manutenção. Por segurança, a interface
+só habilita o reset depois que “Ler contadores” termina com código de sucesso.

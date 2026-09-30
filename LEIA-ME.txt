@@ -1,0 +1,44 @@
+RESET DE ALMOFADAS — EPSON L495
+================================
+
+Como abrir
+----------
+Clique duas vezes em “Abrir Programa.cmd”.
+
+Ordem recomendada
+-----------------
+1. Substitua ou faça a manutenção física das almofadas de tinta.
+2. Ligue a Epson L495 e conecte-a diretamente ao PC por cabo USB.
+   Antes disso, deixe-a desligada por pelo menos 10 segundos.
+3. Clique em “Detectar USB”.
+4. Clique em “Ler contadores”.
+5. Clique em “Simular reset”. Essa etapa não grava na impressora.
+6. Marque as duas confirmações e clique em “RESETAR CONTADORES”.
+7. Confirme novamente no terminal. Aguarde SUCCESS.
+8. Desligue a impressora, aguarde 10 segundos e ligue-a novamente.
+
+Aviso importante
+----------------
+O reset altera somente os contadores armazenados na impressora. Ele não
+remove a tinta acumulada. Resetar sem limpar ou substituir as almofadas
+pode causar vazamento e danos ao equipamento ou ao móvel.
+
+O programa está fixado no modelo L495, exige confirmação humana e verifica
+o resultado após a gravação. Não contém chaves do WICReset nem programas
+de ajuste não licenciados.
+
+Arquivos
+--------
+- Reset-Almofadas-L495.ps1: interface em português criada para este PC.
+- runtime\EWR\ewr.exe: mecanismo aberto EWR v1.3.0.
+- database.json: banco de modelos que contém a definição da L495.
+- LICENSE: licença Apache 2.0 do código EWR.
+- O restante da pasta é o código-fonte correspondente.
+
+Limitação da validação atual
+----------------------------
+A Epson L495 foi detectada pelo nome exato, no USB001. A leitura segura tentou
+as duas interfaces do equipamento, mas a impressora não respondeu ao handshake
+de manutenção nesta sessão. O programa mantém o reset bloqueado até que uma
+leitura real termine com sucesso. Desligue-a fisicamente por 10 segundos antes
+de tentar. Nenhuma gravação foi enviada à impressora durante a validação.

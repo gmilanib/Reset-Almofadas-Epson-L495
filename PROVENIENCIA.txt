@@ -1,0 +1,14 @@
+Componente: EWR (Epson Waste Reset) v1.3.0
+Código-fonte: https://github.com/RxNaison/Epson-Waste-Reset
+Release: https://github.com/RxNaison/Epson-Waste-Reset/releases/tag/v1.3.0
+Licença: Apache License 2.0 (arquivo LICENSE nesta pasta)
+
+SHA-256 do ZIP oficial baixado:
+0E2112F854E7B4BBBBFCC1E12FC44BFCBC5611CDA8CD1FEE5E2629200DEE5687
+
+SHA-256 do runtime\EWR\ewr.exe:
+C4D49B32D1A70C6075EC912E7B5033FB825C92A82539A20936272C74FA0047FE
+
+Observação: o executável da release não possui assinatura Authenticode.
+A origem foi preservada pelo endereço oficial da release, hashes acima e
+código-fonte correspondente incluído nesta pasta.

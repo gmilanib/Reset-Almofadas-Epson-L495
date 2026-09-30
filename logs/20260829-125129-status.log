@@ -1,0 +1,5 @@
+[2026-08-29T12:51:29] Modelo L495 detectado em \\?\usb#vid_04b8&pid_1121&mi_01#7&2820e842&0&0001#{28d78fad-5a12-11d1-ae5b-0000f803a8c2}
+[2026-08-29T12:51:29] Interface USBPRINT aberta com I/O assíncrona.
+[2026-08-29T12:51:29] Preâmbulo END4 enviado.
+[2026-08-29T12:51:30] Flush DDS concluído; 57 bytes recebidos.
+[2026-08-29T12:51:35] ERRO: Impressora não respondeu ao END4 (0 bytes recebidos).
